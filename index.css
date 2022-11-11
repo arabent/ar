@@ -1,0 +1,89 @@
+*{
+    font-family: tajawal;
+}
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+a{
+    cursor: pointer;
+}
+.f-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    width: 100%;
+    min-height: 50vh;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.f-ch4in{
+    flex-basis: 4in;
+}
+.f-6in{
+    flex-basis: 6in;
+}
+.f-1{
+    flex: 1;
+}
+
+.nav{
+    width: 100%;
+    height: 0.7in;
+    background-color: white;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px; padding-right: 20px;
+    border-radius: 30px;
+    background-color: steelblue;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.card{
+    flex-basis: 3.5in;
+    padding: 0.1in;
+    background-color: gainsboro;
+    border-radius: 30px;
+    margin: 0.1in;
+}
+.card-picture-div{
+    display: block;
+    width: 1.5in;
+    height: 1.5in;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card-picture-div img{
+    width: 100%;
+}
+
+.font-desktop-50{
+    font-size: 50px;
+}
+.font-desktop-30{
+    font-size: 30px;
+}
+@media screen and (max-width: 700px){
+    .font-mobile-30{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px;
+    }
+    .font-mobile-25{
+        font-size: 25px;
+        margin: 20px;
+    }
+    .font-mobile-16{
+        font-size: 16px;
+    }
+}
